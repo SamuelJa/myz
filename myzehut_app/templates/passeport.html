@@ -132,7 +132,7 @@
 {% for ps in pss %}
           <div class="col-xl-4 col-md-6 grid-item new">
             <div class="product">
-              <div class="product_image"><img src="{% static 'images/products' %}"></div>
+              <div class="product_image"><img src="{{ps.images.url}}"></div>
               <div class="product_content">
                 <div class="product_info d-flex flex-row align-items-start justify-content-start">
                   <div>
